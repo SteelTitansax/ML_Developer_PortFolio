@@ -11,7 +11,7 @@ const Index = () =>
 <>
 <Layout>
 
-     {/** Header card */}
+     {/** Header card **/}
      <header className="row">
         <div className="col-md-12">
             <div className="card card-body bg-primary text-light">
@@ -46,7 +46,7 @@ const Index = () =>
     </header>
 
 
-     {/**Second Section */}
+     {/**Second Section **/}
       
      <div className="row py-2">
         <div className="col-md-4">
@@ -108,7 +108,7 @@ const Index = () =>
      </div>
     
 
-    {/** Portfolio */}
+    {/** Portfolio **/}
     <div className="row">
           <div className="col-md-12">
                 <div className="card card-body bg-primary">
@@ -172,6 +172,3 @@ const Index = () =>
 
 </>
 export default Index; 
-
-
-        
