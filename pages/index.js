@@ -27,7 +27,8 @@ const Index = () =>
                 <div className="col-md-8">
                     <h1 >Manuel Portero </h1>
                     <h3 >ML Developer</h3> 
-                    <h6 style={{paddingTop:'8px',textAlign:'justify'}}> Comming soon...</h6>
+                    <h6 style={{paddingTop:'8px',textAlign:'justify'}}> As part of my tasks in my last job I'm implementing AI solutions in some utomations. 
+                    Please have a look to the different Demos splitted by technology and have an idea about my AI skills.</h6>
                    
                 </div>
 
@@ -52,16 +53,16 @@ const Index = () =>
         <div className="col-md-4">
                 <div className="card bg-light">
                     <div className="card-body card-body-skills">
-                          <h3   className="text-dark">Education</h3>
+                          <h3 className="text-dark">Skills</h3>
                             {
-                                skills.map(({skill,degree,project},i) => (
+                                skills.map(({skill,percentage},i) => (
                                     <div className="py-3" key={i}>
                                         <h6 className="text-primary">{skill}</h6>
-                                        <p className="text-secondary">{degree}</p>
-                                        <a className="text-dark" style={{fontSize:'11px'}} href={project}>
-                                            <u>Check project</u>    
-                                        </a> 
-                                        
+                                        <div className="progress">
+                                        <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                             role="progressbar"
+                                             style={{width:`${percentage}%`}}></div>
+                                        </div>
                                     </div>
                                 ))
                             }
@@ -120,12 +121,13 @@ const Index = () =>
                             <h3 className="text-center text-light"> Roles</h3>
                             <hr className="bg-white "/>
                         </div>        
-                        
+                        <div className="col-md-2 p-3" />
+
 
                         {
                               projects.map(({name,description,image,url},i) => (
                                 
-                                    <div className="col-md-3 p-3" key={i}>
+                                    <div className="col-md-4 p-3" key={i}>
                                     <div className="card h-100">
                                         <div className="overflow ">
                                             <img src={`/${image}`} alt="Imagen Portfolio1" className="card-img-top border-bottom" />
@@ -146,6 +148,8 @@ const Index = () =>
 
                               ))
                           }
+
+                        <div className="col-md-2 p-3" />
 
                           
 
