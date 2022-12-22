@@ -1,20 +1,30 @@
 
 export const skills = [ 
     {
-        skill: 'Lorem Ipsum',
-        degree : 'Lorem Ipsum',
-        project : '/'
+        skill: 'Supervised learning',
+        percentage : 60,
+    },
+    {
+        skill: 'Non-supervised learning',
+        percentage : 60,
+    }, {
+        skill: 'TensorFlow',
+        percentage : 60,
+    },
+    {
+        skill: 'Python',
+        percentage : 80,
     }
 ]
 
 
 export const experiences = [
     {
-        title: "Lorem Ipsum",
-        description : "Lorem Ipsum",
+        title: 'RPA developer at OMYA - Barcelona/Spain',
+        description : "RPA developing using UiPath, PowerAutomate and Azure Devops. Power Platform developer using PowerApps, PowerAutomate and Office365 services.",
         from: "Jun 2022",
         to:"present",
-        url:"/"
+        url:"https://www.omya.com/"
     }
    
 ]
@@ -39,9 +49,15 @@ export const BlogArticles= [
 
 export const projects = [ 
     {
-        name: "Lorem Ipsum",
-        description:"Lorem Ipsum",
-        image:"fullstack.jpg",
+        name: "Supervised learning",
+        description:"Check the supervised learning section of this portfolio",
+        image:"supervised.png",
+        url:"/",
+    },
+    {
+        name: "Unsupervised learning",
+        description:"Check the Unsupervised learning section of this portfolio",
+        image:"unsupervised.png",
         url:"/",
     }
 ]
