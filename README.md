@@ -2,7 +2,7 @@
 
 ## Here you can find the different ML technologies that I've been working with during my career.
 
-## Live demo : https://rpa-portfolio.vercel.app/https://ml-developer-portfolio.vercel.app/
+## Live demo : https://ml-developer-portfolio.vercel.app/
 
 For Setting up this portfolio clone the repo with the following command :
 
