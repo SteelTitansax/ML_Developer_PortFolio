@@ -52,12 +52,59 @@ export const projects = [
         name: "Supervised learning",
         description:"Check the supervised learning section of this portfolio",
         image:"supervised.png",
-        url:"/",
+        url:"/supervised",
     },
     {
         name: "Unsupervised learning",
         description:"Check the Unsupervised learning section of this portfolio",
         image:"unsupervised.png",
-        url:"/",
+        url:"/unsupervised",
     }
+]
+
+
+export const supervisedSkills = [ 
+    {
+        skill: 'Models',
+        percentage : 100,
+    },
+    {
+        skill: 'Freamworks',
+        percentage : 100,
+    },
+     {
+        skill: 'Python Coding',
+        percentage : 80,
+    }
+]
+
+
+export const supervisedExperiences = [ 
+    {
+        title: 'Power Automate Developer at OMYA - Barcelona/Spain',
+        description : "End to end process Automations using Power Automate as DPA , Power Automate Desktop as RPA and Python libraries like Selenium Webdriver.",
+        from: "Nov 2020",
+        to:"Jun 2022",
+        url:"https://www.omya.com/"
+    } ,
+    {
+        title: 'Power Automate Developer at Seidor - Barcelona/Spain',
+        description : "End to end process Automations using Power Automate as DPA , Power Automate Desktop as RPA and Python libraries like Selenium Webdriver.",
+        from: "Jun 2022",
+        to:"present",
+        url:"https://www.seidor.es/content/seidorweb/es.html"
+    }
+
+]
+
+
+export const supervisedProjects= [
+    {
+        name: "Snake ML",
+        description:"IQModel implemented in ML snake",
+        image:"Snake.png",
+        github:"https://github.com/SteelTitansax/Snake_ML",
+        url:"https://www.youtube.com/watch?v=y45oU4WKzq0"
+    }
+    
 ]
