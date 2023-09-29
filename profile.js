@@ -97,7 +97,6 @@ export const supervisedExperiences = [
 
 ]
 
-
 export const supervisedProjects= [
     {
         name: "Snake ML",
@@ -105,6 +104,18 @@ export const supervisedProjects= [
         image:"Snake.png",
         github:"https://github.com/SteelTitansax/Snake_ML",
         url:"https://www.youtube.com/watch?v=y45oU4WKzq0"
-    }
-    
+    },
+     {
+        name: "Medical Flask App",
+        description:"Medical Flask App (Linear Regression Model)",
+        image:"flask.jpeg",
+        github:"https://github.com/SteelTitansax/FlaskAppML",
+        url:"/"
+    }, {
+        name: "SBR Reactor Simulation",
+        description:"Check my SBR Reactor Simulation demo",
+        image:"SBR.png",
+        url:"https://www.youtube.com/watch?v=o-NajRdfabA",
+        github:"https://github.com/SteelTitansax/SBR_ReactorSimulation"
+    } 
 ]
