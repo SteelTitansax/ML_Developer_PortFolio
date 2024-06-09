@@ -64,7 +64,7 @@ const UnSupervised = () =>
                            
                           <ul>
                           {
-                              UnSupervisedProjects.map (({title,description,from,to,url},i) => ( 
+                              supervisedExperiences.map (({title,description,from,to,url},i) => ( 
                                <div key={i}>
                                  <li>
                                     <h4 className="text-dark">{title}</h4>
@@ -109,7 +109,7 @@ const UnSupervised = () =>
                         </div>        
 
                         {
-                              supervisedProjects.map(({name,description,image,url},i) => (
+                              UnSupervisedProjects.map(({name,description,image,url},i) => (
                                 
                                     <div className="col-md-4 p-2" key={i}>
                                     <div className="card h-100">
