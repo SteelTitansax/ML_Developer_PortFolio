@@ -101,7 +101,7 @@ export const supervisedProjects= [
     {
         name: "Energy Prediction",
         description:"Energy model development and wrappers implementation",
-        image:"functions.png",
+        image:"functions.jpg",
         github:"https://github.com/SteelTitansax/EnergyPredictionSolution",
         url:"https://www.youtube.com/watch?v=qn8LNjUv42U"
     },
