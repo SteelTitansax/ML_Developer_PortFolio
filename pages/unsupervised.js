@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
-import {supervisedSkills, supervisedExperiences, reactProjects, supervisedProjects, canvasProjects, nodeProjects, nocodeProjects} from '../profile'
+import {supervisedSkills, supervisedExperiences, reactProjects, UnSupervisedProjects, canvasProjects, nodeProjects, nocodeProjects} from '../profile'
 import Link from 'next/link'
 
 
@@ -17,7 +17,7 @@ const UnSupervised = () =>
                     <img src="supervised.png" className="mt-1" height="95px" alt="React perfil"/>
                 </div>
                 <div className="col-md-10">
-                    <h1 >Supervised Learning </h1>
+                    <h1 >Unsupervised Learning </h1>
                     <h3>Machine Learning discipline</h3> 
                     <h6 style={{paddingTop:'8px'}}>Unsupervised learning in artificial intelligence is a type of machine learning that learns from data without human supervision. Unlike supervised learning, unsupervised machine learning models are given unlabeled data and allowed to discover patterns and insights without any explicit guidance or instruction.</h6>
                    
@@ -64,7 +64,7 @@ const UnSupervised = () =>
                            
                           <ul>
                           {
-                              supervisedExperiences.map (({title,description,from,to,url},i) => ( 
+                              UnSupervisedProjects.map (({title,description,from,to,url},i) => ( 
                                <div key={i}>
                                  <li>
                                     <h4 className="text-dark">{title}</h4>
