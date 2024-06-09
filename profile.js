@@ -99,11 +99,11 @@ export const supervisedExperiences = [
 
 export const supervisedProjects= [
     {
-        name: "Snake ML",
-        description:"IQModel implemented in ML snake",
-        image:"Snake.png",
-        github:"https://github.com/SteelTitansax/Snake_ML",
-        url:"https://www.youtube.com/watch?v=y45oU4WKzq0"
+        name: "Energy Prediction",
+        description:"Energy model development and wrappers implementation",
+        image:"functions.png",
+        github:"https://github.com/SteelTitansax/EnergyPredictionSolution",
+        url:"https://www.youtube.com/watch?v=qn8LNjUv42U"
     },
      {
         name: "Medical Flask App",
@@ -118,4 +118,14 @@ export const supervisedProjects= [
         url:"https://www.youtube.com/watch?v=o-NajRdfabA",
         github:"https://github.com/SteelTitansax/SBR_ReactorSimulation"
     } 
+]
+
+export const UnSupervisedProjects= [
+    {
+        name: "Snake ML",
+        description:"IQModel implemented in ML snake",
+        image:"Snake.png",
+        github:"https://github.com/SteelTitansax/Snake_ML",
+        url:"https://www.youtube.com/watch?v=y45oU4WKzq0"
+    }
 ]
