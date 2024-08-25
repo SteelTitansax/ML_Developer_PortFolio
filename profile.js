@@ -127,5 +127,12 @@ export const UnSupervisedProjects= [
         image:"Snake.png",
         github:"https://github.com/SteelTitansax/Snake_ML",
         url:"https://www.youtube.com/watch?v=y45oU4WKzq0"
+    },
+     {
+        name: "Python OpenAi Chatbot",
+        description:"Python AzureOpenAi Chatbot (Django + GenAi) (No demo)",
+        image:"python.jpg",
+        github:"",
+        url:""
     }
 ]
